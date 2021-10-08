@@ -2,17 +2,34 @@ LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 USE ieee.numeric_std.all;
 
-ENTITY PortaNOT IS
+ENTITY PortaNotA IS
 PORT(
-    A, B :  IN   std_logic;
-      X  :  OUT  std_logic 
+    A  :  IN   std_logic;
+    X  :  OUT  std_logic 
 );
-END PortaNOT;
+END PortaNotA;
 
-ARCHITECTURE FuncaoPortaNOT OF PortaNOT IS
+ARCHITECTURE FuncaoPortaNotA OF PortaNotA IS
 BEGIN
 
     x <= NOT(A NOT);
+
+END FuncaoPortaNotA;
+
+LIBRARY ieee; 
+USE ieee.std_logic_1164.all;
+USE ieee.numeric_std.all;
+
+ENTITY PortaNotB IS
+PORT(
+    B  :  IN   std_logic;
+    X  :  OUT  std_logic 
+);
+END PortaNotB;
+
+ARCHITECTURE FuncaoPortaNotB OF PortaNotB IS
+BEGIN
+
     x <= NOT(B NOT);
 
-END FuncaoPortaNOT;
+END FuncaoPortaNotB
