@@ -1,7 +1,6 @@
-Prova 2- Sistemas 
+AVALIAÇÂO 2 - EMBARCADOS
 
-Universidade Federal do Amazonas
+Porta Not
 
-Porta NOT
-João Victor Neves Machado da Silva
-21955314
+João Victor Neves Machado da SIlva
+Matrícula: 21955314
