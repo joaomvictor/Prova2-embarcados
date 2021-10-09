@@ -1,1 +1,2 @@
-O código é inserido em uma placa, onde ele percorrerá pela placa e será implementado no microprocessador. O microprocessador, implementado, faz o controle das unidades de hardware que são os circuitos específicos de uma placa.
+O código é inserido em uma placa, onde ele percorrerá pela placa e será implementado no microprocessador. O microprocessador, implementado, 
+faz o controle das unidades de hardware que são os circuitos específicos de uma placa.
